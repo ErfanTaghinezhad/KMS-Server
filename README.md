@@ -1,0 +1,2 @@
+# KMS-Server.-
+KMS-activation
