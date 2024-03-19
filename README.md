@@ -8,12 +8,12 @@ In essence, the KMS Server is responsible for managing product keys of software 
 ## Windows activation using KMS
 To activate Windows products, first run cmd/PowerShell with admin store access and then use the following commands to activate Windows:
 Cmd/PoweShell (run as administrator):
-### Command 1: 'Slmgr /skms <KMS-Server-IP>'
-### Command 2: Slmgr /ato
+### Command 1: `Slmgr /skms <KMS-Server-IP>`
+### Command 2: `Slmgr /ato`
 ## To activate Office,activation using KMS
 Cmd/PoweShell (run as administrator):
 ### Command 1:
-Office 2010: cd C:\Program Files\Microsoft Office\Office14 && Office 2013: cd C:\Program Files\Microsoft Office\Office15 && Office 2016 and 2019: CD C:\Program Files\Microsoft Office\Office16
+`Office 2010: cd C:\Program Files\Microsoft Office\Office14` && `Office 2013: cd C:\Program Files\Microsoft Office\Office15 `&& `Office 2016 and 2019: CD C:\Program Files\Microsoft Office\Office16`
 ### Command 2: cscript ospp.vbs /sethst: KMS_Server_IP
 ### Command 3: cscript ospp.vbs /act
 
