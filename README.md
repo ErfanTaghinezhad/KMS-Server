@@ -8,16 +8,16 @@ In essence, the KMS Server is responsible for managing product keys of software 
 ## Windows/Office activation using KMS
 To activate Windows products, first run cmd/PowerShell with admin store access and then use the following commands to activate Windows:
 Cmd/PoweShell (run as administrator):
-Command 1: Slmgr /skms KMS_Server_IP
-Command 2: Slmgr /ato
+### Command 1: Slmgr /skms KMS_Server_IP
+### Command 2: Slmgr /ato
 ## To activate Office, first run CMD/PowerSell with administrator access and then use the following commands to activate Office:
 Cmd/PoweShell (run as administrator):
-Command 1:
+### Command 1:
    Office 2010: cd C:\Program Files\Microsoft Office\Office14
 Office 2013: cd C:\Program Files\Microsoft Office\Office15
 Office 2016 and 2019: CD C:\Program Files\Microsoft Office\Office16
-Command 2: cscript ospp.vbs /sethst: KMS_Server_IP
-Command 3: cscript ospp.vbs /act
+### Command 2: cscript ospp.vbs /sethst: KMS_Server_IP
+### Command 3: cscript ospp.vbs /act
 Common errors:
 
 If this is the first time you are activating the desired Windows, please first install the product key specific to your Windows version. To install, first get the Product Key for your Windows version from the Microsoft site and then install it on your system using the following command.
@@ -27,13 +27,13 @@ Cammand: slmgr /ipk <product key>
 ## Error code 0x800704CF):
 Because the activation mechanism works differently in Evaluation version Windows, you must first change your Windows version to Pro or Enterprise versions and then proceed to activate Windows. To do this, please do the following in order
 Cmd/PoweShell (run as administrator):
-Command 1: slmgr /upk
-Command 2: slmgr.vbs /cpky
-Command 3: slmgr /ckms
-Command 4: slmgr.vbs /ckms
-Command 5: slmgr /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
-Command 6: slmgr.vbs /skms KMS_Server_IP
-Command 7: slmgr.vbs /ato
+### Command 1: slmgr /upk
+### Command 2: slmgr.vbs /cpky
+### Command 3: slmgr /ckms
+### Command 4: slmgr.vbs /ckms
+### Command 5: slmgr /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43
+### Command 6: slmgr.vbs /skms KMS_Server_IP
+### Command 7: slmgr.vbs /ato
 
 
 ## Error code: 0xC004F074
