@@ -4,6 +4,11 @@ A KMS (Key Management Service) server is a software service provided by Microsof
 
 In essence, the KMS Server is responsible for managing product keys of software products, and clients within the network can utilize this service to activate products automatically without the need for manual product key entry.
 
+To activate Windows, please connect to:
+
+[Link](https://www.digiboy.ir/8922/digibox-v1-1/)
+
+The KMS server machine is provided for you as an example. You can see more information and setup guide on the relevant site.
 
 ## Windows activation using KMS
 To activate Windows products, first run cmd/PowerShell with admin store access and then use the following commands to activate Windows:
@@ -14,8 +19,8 @@ Cmd/PoweShell (run as administrator):
 Cmd/PoweShell (run as administrator):
 ### Command 1:
 `Office 2010: cd C:\Program Files\Microsoft Office\Office14` && `Office 2013: cd C:\Program Files\Microsoft Office\Office15 `&& `Office 2016 and 2019: CD C:\Program Files\Microsoft Office\Office16`
-### Command 2: cscript ospp.vbs /sethst: KMS_Server_IP
-### Command 3: cscript ospp.vbs /act
+### Command 2: `cscript ospp.vbs /sethst: KMS_Server_IP`
+### Command 3: `cscript ospp.vbs /act`
 
 ## Common errors:
 If this is the first time you are activating the desired Windows, please first install the product key specific to your Windows version. To install, first get the Product Key for your Windows version from the Microsoft site and then install it on your system using the following command.
@@ -38,4 +43,4 @@ Cmd/PoweShell (run as administrator):
 According to the error, it seems that your system is unable to connect to the KMS server and it is not accessible. To fix this problem, please first make sure that the connection to the KMS server is correct and that port 1688 of the KMS server is open. Also, make sure that your system's firewall is not blocking access to this port.
 
 ## According to the above errors, if the problem is not solved, you can diagnose and solve your problem through the following link.
-[title](https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes)
+[Link](https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes)
